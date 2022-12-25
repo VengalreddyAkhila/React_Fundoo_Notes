@@ -1,0 +1,79 @@
+.main-container{
+    width: 100vw;
+    height: 100vh;
+}
+
+.sign-in-container{
+  border: 1px solid #dadce0;
+  border-radius: 2%;
+  width: 70%;
+  height: 70%;
+  position: relative;
+  top: 5%;
+  left: 15%;
+  display: flex;
+  flex-direction: row;
+}
+#section-1{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.main-text{
+    align-self: flex-start;
+    justify-content: center;
+    padding-top: 10%;
+    padding-left: 5%;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 23px;
+
+}
+.label-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+#section-2{
+    width: 50%;
+    height: 90%;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.logo{
+    width: 70%;
+    height: 70%;
+    position: relative;
+    top: 10%;
+}
+.email-field{
+    color: cornflowerblue;
+}
+.signin{
+    display: flex;
+    flex-direction: row;
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    font-weight: 600;
+    width: 100%;
+    color: cornflowerblue;
+    justify-content: space-between;
+}
+#text1{
+    font-size: small;
+}
+#checkbox{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    padding: 0 3%;
+    font-size: medium;
+}

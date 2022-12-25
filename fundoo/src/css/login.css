@@ -1,0 +1,52 @@
+#header-sign {
+    width: 100vw;
+    height: 100vh;
+  }
+  .testConatiner-header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  #box-sign {
+    width: 50%;
+    height: 90%;
+    border: 1px solid #dadce0;
+    border-radius: 2%;
+  }
+  .mainheading {
+    height: 25%;
+    width: 100%;
+    text-align: center;
+    font-size: 23px;
+    margin-top: 8%;
+    justify-content: center;
+  }
+  .label-fields{
+    height: 25%;
+    width: 100%;
+    
+    font-family: "Helvetica Neue", sans-serif;
+  }
+  .text-p1 {
+    color: cornflowerblue;
+    font-weight: 600;
+  }
+  .para-signin {
+    height: 15%;
+    width: 100%;
+  }
+  .login-account{
+    height: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    font-weight: 600;
+    width: 53%;
+    color: cornflowerblue;
+    justify-content: space-between;
+    padding-left: 20%;
+  }
