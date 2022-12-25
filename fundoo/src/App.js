@@ -2,11 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 import SignIn from './components/signin';
 import LoginPage from './components/login';
+import Dashboard from './components/Dashboard';
 function App() {
   return (
     <div className="App">
-      <SignIn/>
+      {/* <SignIn/> */}
       {/* <LoginPage/> */}
+      <Dashboard/>
      
      
     </div>

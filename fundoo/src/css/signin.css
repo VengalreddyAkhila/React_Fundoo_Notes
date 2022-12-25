@@ -57,6 +57,7 @@
 }
 .email-field{
     color: cornflowerblue;
+    margin-bottom: 2%;
 }
 .signin{
     display: flex;
