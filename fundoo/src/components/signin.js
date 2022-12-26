@@ -145,6 +145,8 @@ class SignIn extends Component {
       console.log(obj);
       SignUp(obj)
      .then(response =>{
+      console.log(response)
+      localStorage.setItem('user',JSON.stringify(response.obj))
        this.props.history.push('/login')
        if(response.status == 200){
        console.log(response)
